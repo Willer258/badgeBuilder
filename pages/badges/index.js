@@ -1,12 +1,11 @@
 import BadgeList from "../../components/badge/BadgeList";
-import { getAllBadges } from "../../dummy-data";
+import{getAllBadges} from "../../dummy-data";
 
-function Allbadges() {
-
-  const badges = getAllBadges();
+function Allbadges(){
+  const badge = getAllBadges();
   return (
     <div>
-      <BadgeList items={badges} />
+      <BadgeList items={badge}/>
     </div>
-  );
-} export default Allbadges;
+  )
+}export default Allbadges;
