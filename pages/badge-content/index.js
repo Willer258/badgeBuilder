@@ -1,6 +1,6 @@
 function AllBadges() {
   return (
-    <div>Tous les badges</div>
+    <div>Un badge </div>
   );
 }
 export default AllBadges;
