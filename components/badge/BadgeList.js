@@ -6,7 +6,7 @@ function BadgeList(props) {
     <div>
       <ul>
         {items.map((badge) => (
-          <BadgeItem id={badge.id} nom={badge.nom} prenom={badge.prenom} departement={badge.departement} profilephoto={badge.profilephoto} color={badge.color} />
+          <BadgeItem key={badge.id} id={badge.id} nom={badge.nom} prenom={badge.prenom} departement={badge.departement} profilephoto={badge.profilephoto} color={badge.color} />
         ))}
       </ul>
     </div>

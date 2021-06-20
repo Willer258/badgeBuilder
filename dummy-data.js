@@ -7,7 +7,8 @@ const DUMMY_BADGES = [
     departement: 'Devellopement',
     role: 'Devellopeur Front-End',
     profilephoto: 'images/pp/albedo.jpg',
-    color: 'blue'
+    color: 'blue',
+    citation:'If you never try, you never show',
   },
 
   {
@@ -18,12 +19,13 @@ const DUMMY_BADGES = [
     departement: 'Management',
     role: 'Franchement je sais pas',
     profilephoto: 'images/pp/zhongli.jpg',
-    color: 'gray'
+    color: 'gray',
+    citation:'Cogito Ergo Sum',
   },
 
 
   {
-    id: '382Y',
+    id: '386Y',
     nom: 'Mouloungui',
     prenom: 'Maria',
     sexe: 'Feminin',
@@ -31,6 +33,7 @@ const DUMMY_BADGES = [
     role: 'Elle va pouvoir ecrire bientot',
     profilephoto: 'images/pp/yanfei.jpg',
     color: 'red',
+    citation:'Ne craignez pas la perfection vous l\'atteidrez jamais',
   }
 ];
 
