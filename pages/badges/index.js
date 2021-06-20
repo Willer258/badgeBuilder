@@ -4,7 +4,7 @@ import{getAllBadges} from "../../dummy-data";
 function Allbadges(){
   const badge = getAllBadges();
   return (
-    <div>
+    <div className="grid justify-items-center align-middle">
       <BadgeList items={badge}/>
     </div>
   )
