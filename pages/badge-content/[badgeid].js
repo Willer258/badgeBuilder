@@ -10,8 +10,9 @@ function Badge() {
   const router = useRouter();
   const badgeid = router.query.badgeid;
   const badge = getBadgeById(badgeid);
+  const error = "Ce badge n'existe pas"
   if(!badge){
-    return <div className="text-5xl text-center">Ce badge n'existe pas</div>;
+    return <div className="text-5xl text-center">{error}</div>;
   }
 
   return (

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 function BadgeItem(props){
     const{id,nom,prenom,departement,profilephoto,color}=props;
@@ -6,7 +7,7 @@ function BadgeItem(props){
     return <li className={"flex flex-col p-5 m-5 px-5 space-y-5 bg-"+color+'-500'}>
       <div className="flex items-center justify-around space-x-9">
        
-          <img src={profilephoto} className={'rounded-full w-24 h-24 overflow-hidden text-red-'+500} />
+        <div className={'rounded-full w-24 h-24 overflow-hidden text-red-' + 500} ><Image src={'/'+profilephoto} alt={nom} width={500} height={500} /></div>
 
         <div className="flex flex-col">
           <h3 className="text-2xl ">{nom}</h3>
