@@ -1,4 +1,7 @@
+import CreateBadge from "../../components/makebadge/MakeBadge";
 function MakeBadge(){
-  return <h1>Concepteur de badges</h1>
+  return( 
+    <CreateBadge/>
+  )
 }
 export default MakeBadge;
